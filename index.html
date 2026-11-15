@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brew &amp; Bloom | Lakeside Cafe in Regent's Park, London</title>
+  <meta name="description" content="Brew & Bloom is a lakeside cafe in Regent's Park, London. Speciality coffee, pastries baked each morning and brunch until 3pm. Find us beside the Boating Lake near York Gate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header-row">
+      <a href="#top" class="logo" aria-label="Brew and Bloom home">Brew<span class="amp">&amp;</span>Bloom</a>
+
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="#menu">Menu</a>
+        <a href="#stories">News</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Hours</a>
+        <a href="#getting-here">Getting here</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="header-status mono"><span class="dot" data-status-dot></span><span data-status-short>Checking</span></span>
+        <a href="#" class="pill pill-dark" data-whatsapp>Order</a>
+        <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" data-burger>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker mono"><span class="dot" data-status-dot></span><span data-status-long>Checking hours</span></p>
+          <h1>Coffee and Brunch <span class="hl">by the Lake</span> in Regent's Park</h1>
+          <p class="hero-lede">Since 2019 we have been pouring flat whites from a little brick pavilion beside the Boating Lake. Take a pastry for your walk, or settle into a velvet chair inside and stay for brunch.</p>
+          <div class="hero-cta">
+            <a href="#" class="pill pill-solid pill-lg" data-directions target="_blank" rel="noopener">Get directions</a>
+            <a href="#menu" class="pill pill-line pill-lg">See the menu</a>
+          </div>
+        </div>
+
+        <div class="hero-collage">
+          <figure class="c-tall"><img src="images/interior-mural.jpg" alt="Green velvet chairs, marble tables and a peony mural by tall windows looking onto trees" width="1050" height="1400"></figure>
+          <figure class="c-top"><img src="images/croissant-benedict.jpg" alt="Croissant Benedict with hollandaise" width="1050" height="1400"></figure>
+          <figure class="c-bottom"><img src="images/neon-sign.jpg" alt="Neon sign reading This must be the place" width="1050" height="1400"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu highlights -->
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-top">
+          <h2>Menu Highlights</h2>
+        </div>
+
+        <div class="filter-row">
+          <div class="tabs" role="tablist" aria-label="Menu categories">
+            <button role="tab" aria-selected="true" data-cat="popular">Popular</button>
+            <button role="tab" aria-selected="false" data-cat="brunch">Brunch</button>
+            <button role="tab" aria-selected="false" data-cat="bakery">Bakery</button>
+            <button role="tab" aria-selected="false" data-cat="coffee">Coffee bar</button>
+          </div>
+          <label class="select-wrap">
+            <span class="sr-only">Menu category</span>
+            <select data-cat-select>
+              <option value="popular">Popular</option>
+              <option value="brunch">Brunch</option>
+              <option value="bakery">Bakery</option>
+              <option value="coffee">Coffee bar</option>
+            </select>
+          </label>
+          <a href="#visit" class="pill pill-line desktop-only">Brunch served until 3pm</a>
+        </div>
+
+        <div class="card-row" data-cards aria-live="polite"></div>
+
+        <div class="center mobile-only">
+          <a href="#visit" class="pill pill-line">Brunch served until 3pm</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest news -->
+    <section class="section" id="stories">
+      <div class="container">
+        <div class="section-top">
+          <h2>News from the Pavilion</h2>
+          <a href="#" class="pill pill-line desktop-only" data-instagram target="_blank" rel="noopener">More on Instagram</a>
+        </div>
+
+        <div class="stories">
+          <a href="#" class="story-main" data-instagram target="_blank" rel="noopener">
+            <img src="images/bianca-flatbread.jpg" alt="Bianca flatbread with burrata and rocket" loading="lazy">
+            <span class="tag mono">New menu</span>
+            <h3>Our autumn menu has landed, with six new plates to try</h3>
+            <span class="meta mono">10 Nov 2026 &middot; 3 min read</span>
+            <p>Chef Priya Natarajan has been busy. Highlights include a Bianca flatbread with burrata and creamed spinach, a chorizo Benedict on our own brioche and a cardamom oat latte that is already outselling the flat white.</p>
+          </a>
+
+          <div class="story-list">
+            <a href="#" class="story-item" data-instagram target="_blank" rel="noopener">
+              <img src="images/croissant-board.jpg" alt="Flat whites with latte art" loading="lazy">
+              <div>
+                <span class="tag mono">Workshops</span>
+                <h3>Latte art mornings return on the first Saturday of every month</h3>
+                <span class="meta mono">6 Nov 2026 &middot; 2 min read</span>
+              </div>
+            </a>
+            <a href="#" class="story-item" data-instagram target="_blank" rel="noopener">
+              <img src="images/cinnamon-swirls.jpg" alt="Cinnamon swirls and coffee" loading="lazy">
+              <div>
+                <span class="tag mono">Bakery</span>
+                <h3>Why our cinnamon swirls take two days to make</h3>
+                <span class="meta mono">28 Oct 2026 &middot; 4 min read</span>
+              </div>
+            </a>
+            <a href="#" class="story-item" data-instagram target="_blank" rel="noopener">
+              <img src="images/interior-wide.jpg" alt="Cafe interior with red banquettes" loading="lazy">
+              <div>
+                <span class="tag mono">Private hire</span>
+                <h3>The back room is now available for birthdays and book clubs</h3>
+                <span class="meta mono">19 Oct 2026 &middot; 2 min read</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="center mobile-only">
+          <a href="#" class="pill pill-line" data-instagram target="_blank" rel="noopener">More on Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-top">
+          <h2>What Our Regulars Say</h2>
+        </div>
+
+        <div class="reviews">
+          <div class="review-card">
+            <div class="review" data-review aria-live="polite">
+              <div class="reviewer">
+                <span class="avatar" data-r-initials>SO</span>
+                <div>
+                  <strong data-r-name>Sophie O.</strong>
+                  <span class="mono" data-r-role>Morning dog walker</span>
+                </div>
+              </div>
+              <p class="rating mono">Rated <span data-r-rating>5</span> of 5</p>
+              <h3 data-r-title>The best part of my morning loop</h3>
+              <p data-r-text>Text text</p>
+            </div>
+            <div class="review-nav">
+              <button class="pill pill-line pill-sm" data-r-prev aria-label="Previous review">Prev</button>
+              <div class="dots" data-r-dots></div>
+              <button class="pill pill-line pill-sm" data-r-next aria-label="Next review">Next</button>
+            </div>
+          </div>
+
+          <figure class="review-img-a"><img src="images/interior-wide.jpg" alt="Inside the pavilion with green chairs and red banquettes" loading="lazy"></figure>
+
+          <div class="review-side">
+            <figure class="review-img-b"><img src="images/chorizo-benedict.jpg" alt="Chorizo Benedict with kale salad" loading="lazy"></figure>
+            <p class="side-cap">Weekend brunch from 8am. Walk-ins welcome. For groups of six or more, message us a day ahead.</p>
+            <a href="#" class="pill pill-line pill-sm" data-whatsapp>Message to book</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit: hours + map -->
+    <section class="section" id="visit">
+      <div class="container">
+        <div class="section-top">
+          <h2>Hours and Location</h2>
+        </div>
+
+        <div class="visit">
+          <div class="visit-info">
+            <div class="now">
+              <span class="mono">Right now</span>
+              <strong data-status-big>Checking</strong>
+              <p data-status-detail>&nbsp;</p>
+            </div>
+
+            <table class="hours">
+              <caption class="sr-only">Weekly opening hours</caption>
+              <tbody data-hours-body></tbody>
+            </table>
+
+            <address>
+              <strong>Brew &amp; Bloom</strong><br>
+              <span data-address-line1>The Lakeside Pavilion, Regent's Park</span><br>
+              <span data-address-line2>London NW1 4NR</span><br>
+              <a href="#" data-phone-link><span data-phone>020 7946 0321</span></a>
+            </address>
+
+            <div class="visit-cta">
+              <a href="#" class="pill pill-solid" data-directions target="_blank" rel="noopener">Get directions</a>
+              <a href="#" class="pill pill-line" data-whatsapp>Order on WhatsApp</a>
+            </div>
+          </div>
+
+          <div class="map">
+            <span class="map-note mono">Map loads on the live site</span>
+            <iframe data-map title="Map showing Regent's Park Boating Lake, London" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <ol class="getting-here" id="getting-here">
+          <li>
+            <span class="mono">By tube</span>
+            <strong>Baker Street or Regent's Park</strong>
+            <p>Both stations are about a 10 minute walk. Baker Street is served by the Bakerloo, Jubilee, Metropolitan, Circle and Hammersmith &amp; City lines.</p>
+          </li>
+          <li>
+            <span class="mono">By bus</span>
+            <strong>Marylebone Road</strong>
+            <p>Several routes stop along Marylebone Road. Hop off near York Gate and walk north into the park.</p>
+          </li>
+          <li>
+            <span class="mono">In the park</span>
+            <strong>Enter at York Gate</strong>
+            <p>Walk up towards York Bridge. Just before the bridge, take the path on your left along the Boating Lake. We are the brick pavilion with the green awning.</p>
+          </li>
+          <li>
+            <span class="mono">Bikes and parking</span>
+            <strong>Racks outside the door</strong>
+            <p>Bike racks sit beside the terrace. Pay and display parking is available on the Outer Circle.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container narrow">
+        <h2>Get Weekly Specials Straight to Your Inbox</h2>
+        <form class="news-form" data-news-form novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" autocomplete="email" required>
+          <button type="submit" class="pill pill-solid">Subscribe</button>
+        </form>
+        <p class="news-msg" data-news-msg>One email a week with specials and events. Read our <a href="#">Privacy Policy</a>.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo">Brew<span class="amp">&amp;</span>Bloom</a>
+        <p class="est">Lakeside coffee and brunch in Regent's Park since 2019.</p>
+        <p class="follow">Follow us on</p>
+        <div class="socials">
+          <a href="#" data-instagram target="_blank" rel="noopener">Instagram</a>
+          <a href="#" data-whatsapp>WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>The Cafe</h4>
+        <a href="#stories">Our story</a>
+        <a href="#stories">News and events</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#" data-whatsapp>Private hire</a>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <a href="#menu">Brunch</a>
+        <a href="#menu">Bakery</a>
+        <a href="#menu">Coffee bar</a>
+        <a href="#visit">Allergen info</a>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <a href="#visit">Opening hours</a>
+        <a href="#getting-here">Getting here</a>
+        <a href="#" data-directions target="_blank" rel="noopener">Google Maps</a>
+        <a href="#" data-whatsapp>Order ahead</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <span data-address-inline>The Lakeside Pavilion, Regent's Park, London NW1 4NR</span>
+        <span data-phone>020 7946 0321</span>
+        <span data-email>hello@brewandbloom.co.uk</span>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container footer-bar-row mono">
+        <span>&copy; <span data-year>2026</span> Brew &amp; Bloom Coffee Ltd. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> &middot; <a href="#">Terms</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
